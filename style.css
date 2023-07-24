@@ -1,0 +1,185 @@
+/*	styling the search input form and button on the nav 	*/
+.search-box:hover > .search-txt{
+	width: 24vw;
+	padding:0 6px;
+}
+.search-txt{
+	border:none;
+	outline:none;
+	padding:0;
+	transition:0.4s;
+	line-height:40px;
+	float:left;
+	width:200px; 
+}
+#search-abox button{
+	height:40px;
+	border-radius:0px;
+}
+
+/*	stylingn the text in the homepage, parallax 	*/
+.print{
+	color:white;
+}
+
+/*	styling buttons in the homepage, 	*/
+.btngg{
+	margin-top:30px;
+}
+
+/*  styling the first button on the home page, portfolio, parallax	*/
+.top-btn{
+	background-color:#5d47d7;
+	border-radius:0px;
+	color:white;
+}
+
+/*	styling the portfolio section	*/
+.portfolio img{
+	width: 100%;
+	height: 100%;
+}
+/*	 the different images to the 3 parallax sections 	*/
+.image-div{
+	background-image:url(Images/pexels2.jpg);
+}
+.image-div1{
+	background-image:url(Images/pexels3.jpg);
+}
+.image-div2{
+	background-image:url(Images/pexels4.jpg);
+}
+
+/*	given to different classes	*/
+.pad0{
+	padding: 0px;
+}
+
+/*	to give that parallax effect	*/
+.image-div, .image-div1, .image-div2{
+	background-size:cover;
+	background-attachment:fixed;
+	height: 95vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	padding-inline: 5%;
+}
+
+/*	styling part of the parallax, customer */
+.sec3text{
+	font-size:14px;
+	margin-top: 20px;
+}
+
+/*	styling the div with the class "thrid"  */
+.third{
+	padding-top: 30px;
+}
+.thirdcontainer{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	padding-inline: 4%;
+}
+.third img{
+	width: 85%;
+	height: 55vhm;
+	margin-top: 5vh;
+}
+
+/*	styling the div with the class "fourth"  */
+.fourth{
+	padding-top: 70px;
+	background-color:#0e1015;
+}
+.fourthcontainer{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center
+}
+.deal{
+	width:340px;
+	height:275px;
+}
+
+/*	styling customer section	*/
+#bab{
+	height: 165px;
+	width: 125px;
+}
+
+/*	styling the client section	  */
+.client{
+	width: 50%;
+	height: 35vh;
+}
+
+/*	styling the jumbotron section	*/
+.jumbotron{
+	padding:1rem;
+	border-radius:0px;
+	margin: 0;
+}
+
+/*	styling the footer scetion	*/
+.footer{
+	width:100%;	
+	background-color:#3f3f3f;
+	padding:2rem 4%;
+	color:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social img{
+	padding-inline: 16px;
+}
+
+/*	responsive with css	*/
+@media screen and (max-width: 767px){
+	.image-div h2, .image-div1 h2, .image-div2 h2, .client-div h1{
+		font-size: 8.2vw;
+	}
+	.deal{
+		width:190px;
+		height:145px;
+	}
+	.footer{
+		display: block;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 380px){
+	.navbar-nav a{
+		font-size: 14px;
+	}
+	.search-txt{
+		width: 140px;
+		font-size: 14px;
+		line-height: 35px;
+	}
+	#search-abox button{
+		height:35px;
+	}
+	.btn{
+		font-size: 13px;
+		padding: 5px 11px;
+	}
+	.portfolio h2, .thirdcontainer h3{
+		font-size: 24px;
+	}
+	.dealer{
+		display: none;
+	}
+	.footer{
+		padding-inline: 0%;
+	}
+	.social img{
+		font-size: 1em;
+		padding-inline: 10px;
+	}
+}

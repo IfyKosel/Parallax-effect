@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Parallax effect</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">	
+</head>
+<body>
+	<!--	the navbar section	-->
+	<nav class="navbar navbar-expand-lg bg-light py-3 navbar-light fixed-top">
+		<a class="navbar-brand" href="#">Shapely Demo</a>
+		<!--	the hamburger button when the screen size reduces	-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!--	the links on the nav	-->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a class="nav-link" href="##">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="##">Blog</a></li>
+				<li class="nav-item"><a class="nav-link" href="##">Portfolio</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="##" id="navbarDropdown" role="button" data-toggle="dropdown">About the tests</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="##" >Page image alignment</a>
+						<a class="dropdown-item" href="##" >Page markup and formatting</a>
+						<a class="dropdown-item" href="##" >Clearing floats</a>
+						<a class="dropdown-item" href="##" >Page with comments</a>
+						<a class="dropdown-item" href="##" >Page with comments disabled</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="##" id="navbarDropdown" role="button" data-toggle="dropdown">Level 1</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="nav-link dropdown-toggle" href="##" id="navbarDropdown" role="button" data-toggle="dropdown">Level 2</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="##" >Level 3</a>
+							<a class="dropdown-item" href="##" >Level 3a</a>
+							<a class="dropdown-item" href="##" >Level 3b</a>
+						</div>
+						<a class="dropdown-item" href="##" >Level 2a</a>
+						<a class="dropdown-item" href="##" >Level 2b</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="##" id="navbarDropdown" role="button" data-toggle="dropdown">Shop</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="##" >Page A</a>
+						<a class="dropdown-item" href="##" >Page B</a>
+					</div>
+				</li>
+			</ul>		
+		<!--	the search section	-->		
+			<div class="search-box d-flex ml-auto">
+				<div id="search-abox">
+					<input type="text" class="search-txt" placeholder="Type Here to Search">
+					<button class="btn btn-primary btn-md">Search</button>
+				</div>
+				<a class="nav-link" id="search-btn" href="##"><i class="fas fa-search"></i></a>
+			</div>	
+		</div>	
+	</nav>   
+	
+	<!--	the home page and first parallax section	-->
+	<div class="container-fluid pad0">
+		<div class="image-div">
+			<h2 class="display-4 text-center print">We Change Everything </h2>
+			<h2 class="display-4 text-center print">Wordpress</h2>
+			<p  class="display-5 text-center print">This is the only wordpress theme you will ever want to use</p>
+			<div class="btngg">
+				<button type="button" class="btn top-btn btn-lg">Read More</button>
+				<button type="button" class="btn btn-outline-light btn-lg">Download Now</button>
+			</div>	
+		</div>	
+		<hr class="my-4">
+	</div>
+
+	<!--	the portfolio section	-->
+	<div class="container portfolio">
+		<div class="row justify-content-between mb-4">
+			<div class="col-lg-4 col-md-5 ml-lg-4">
+				<img src="Images/pexels14.jpg" alt="SEO friendly image">
+			</div>
+			<div class="col-lg-5 col-md-5 mr-lg-4 ">
+				<h2>SEO Friendly</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
+				<a href="##" class="btn top-btn">Read More</a>
+			</div>
+		</div>
+		<div class="row justify-content-between py-4">    
+			<div class="col-lg-6 col-md-6">
+				<h2>Portfolio Section</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum.</p>
+				<a href="##" class="btn top-btn mb-2">See it in action</a>
+			</div>
+			<div class="col-lg-4 col-md-5">
+				<img src="Images/pexels6.jpg" alt="Portfolio image">
+			</div>
+		</div>
+	</div>
+
+	<!--	the second parallax section	-->
+	<div class="container-fluid pad0">
+		<div class="image-div1">
+			<h2 class="display-4 text-center print" >Small Parallex Section</h2>
+			<p  class="display-5 text-center print sec3text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet rhoncus porta. Ut quis sem quis purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget tincidunt leo ornare quis.</p>
+			<div class="btngg">
+				<button type="button" class="btn top-btn btn-lg">More Info</button>
+			</div>	
+		</div>	
+	</div>
+
+	<!--	the limitless option section	-->
+    <div class="container-fluid third">
+		<div class="thirdcontainer" >
+			<h3>Limitless Options</h3>
+			<p class="sec3text text-center">Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate porta faucibus. Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante</p>
+			<div class="btngg">
+				<button type="button" class="btn top-btn btn-lg">Download Now</button>
+			</div>
+			<img src="Images/pexels15.jpg"/>
+		</div>  
+    </div>
+
+	<!--	the project gallery section		-->
+	<div class="container-fluid fourth">
+		<div class="fourthcontainer">
+			<h3 class="text-white text-center print">Our Latest Projects</h3>
+			<p class="sec3text text-white text-center print">Here is our latest projects. You'll love them!</p>
+		</div>
+		<div class="row padding ">
+			<img src="Images/pexels1.jpg" class="deal">
+			<img src="Images/pexels11.jpg" class="deal dealer">
+			<img src="Images/pexels16.jpg" class="deal">
+			<img src="Images/pexels13.jpg" class="deal dealer">
+			<img src="Images/pexels14.jpg" class="deal">
+			<img src="Images/pexels10.jpg" class="deal">
+			<img src="Images/pexels6.jpg" class="deal dealer">
+			<img src="Images/pexels9.jpg" class="deal">
+			<img src="Images/pexels8.jpg" class="deal dealer">
+			<img src="Images/pexels17.jpg" class="deal">
+		</div>
+	</div>
+
+	<!--	the third parallax section		-->
+	<div class="container-fluid pad0">
+		<div class="image-div2">
+			<h2 class="display-4 text-center print" >What Our Customers Say</h2>
+			<p  class="display-5 text-center print sec3text">Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl velit, vicula at nibh sed, porttitor sollicitudin ante. Sed justo augue, vestibulum ut efficitur vitae, euismod et justo. Mauris sed mattis ante. Ut ligula lectus, consequat vitae neque ac, gravida hendrerit ante.</p>
+			<div class="btngg">
+				<image src="Images/pexels18.jpeg" id="bab" class="rounded-circle">
+			</div>	
+		</div>	
+	</div>
+
+	<!--	the client section		-->
+	<div class="container-fluid client-div">
+		<h1 class="display-2 text-center pt-4">Our Main Clients</h1>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 d-flex">
+				<img src="Images/logo1.jpg" class="client p-3">
+				<img src="Images/logo2.png" class="client p-3">
+			</div>
+			<div class="col-lg-6 col-md-6 d-flex">
+				<img src="Images/logo3.png" class="client p-3">
+				<img src="Images/logo4.png" class="client p-3">
+			</div>
+			<div class="col-lg-6 col-md-6 d-flex">
+				<img src="Images/logo5.png" class="client p-3">
+				<img src="Images/logo6.png" class="client p-3">
+			</div>
+			<div class="col-lg-6 col-md-6 d-flex">
+				<img src="Images/logo7.png" class="client p-3">
+				<img src="Images/logo8.png" class="client p-3">
+			</div>
+		</div>
+	</div>	
+	
+	<!--	the jumbotron section	-->
+	<div class="container-fluid pad0">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 pr-0">
+				<p>Do you like this awesome wordpress theme?</p>
+			</div>
+			<div class="btngg ml-auto mt-0">
+				<button type="button" class="btn top-btn btn-lg">DOWNLOAD NOW</button>
+			</div>
+		</div>
+	</div>
+
+	<!--  Footer  -->
+	<div class="container-fluid pad0">
+		<div class="footer">				
+			<p>Theme by colorlib Powered by Wordpress</p>		
+			<div class="social">
+				<a href="##" id="facebook"><img src="Images/facebook.png" ></a>
+				<a href="##"><img src="Images/instagram.png"></a>
+				<a href="##"><img src="Images/linkedin.png"></a>
+				<a href="##"><img src="Images/youtube.png"></a>
+				<a href="##"><img src="Images/twitter.png"></a>			
+			</div>				
+		</div>
+	</div>
+</body>
+</html>
